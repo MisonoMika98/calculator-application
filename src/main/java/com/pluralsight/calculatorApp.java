@@ -38,19 +38,19 @@ class CalculatorApp
         String option = myScanner.next();
 
         if (option.equals("A")) {
-            System.out.println("The sum is: " + (num1 + num2));
+            System.out.println("The sum is: " + num1 + " + " + num2 + " = " + (num1 + num2));
         }
 
         else if (option.equals("S")) {
-            System.out.println("The sum is: " + (num1 - num2));
+            System.out.println("The sum is: " + num1 + " - " + num2 + " = " + (num1 - num2));
         }
 
         else if (option.equals("M")) {
-            System.out.println("The sum is: " + (num1 * num2));
+            System.out.println("The sum is: " + num1 + " * " + num2 + " = " + (num1 * num2));
         }
 
         else if (option.equals("D")) {
-            System.out.println("The sum is: " + (num1 / num2));
+            System.out.println("The sum is: " + num1 + " / " + num2 + " = " + (num1 / num2));
         }
 
         else {
