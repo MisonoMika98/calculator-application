@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
-class CalculatorApp
+class calculatorApp
 
 {
 
