@@ -15,13 +15,13 @@ class CalculatorApp
 // get two numbers, add them together, and display the sum
         System.out.print("Enter first number: ");
 
-        int num1 = myScanner.nextInt();
+        double num1 = myScanner.nextDouble();
 
         System.out.print("Enter second number: ");
 
-        int num2 = myScanner.nextInt();
+        double num2 = myScanner.nextDouble();
 
-        int sum = num1 + num2;
+        double sum = num1 + num2;
 
 // select what you want to do with your numbers
         System.out.println();
