@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-import java.util.*;
+import java.util.Scanner;
 
 class CalculatorApp
 
